@@ -124,6 +124,7 @@ button {
 
 .features {
   text-align: center;
+  margin-bottom: 210px;
 
   h2 {
     max-width: 539px;
@@ -139,6 +140,7 @@ button {
     display: flex;
     text-align: left;
     justify-content: space-between;
+    margin-bottom: 34px;
 
     li {
       max-width: 240px;
@@ -158,4 +160,28 @@ button {
       }
     }
   }
+
+  button {
+    display: block;
+    margin: auto;
+    width: 175px;
+    height: 53px;
+    background-color: #ff9900;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+  }
+}
+
+.professionals {
+  display: flex;
+}
+
+.managers {
+  display: flex;
+}
+
+.marketers {
+  display: flex;
 }
