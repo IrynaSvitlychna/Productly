@@ -180,7 +180,7 @@ button {
   gap: 104px;
   margin-bottom: 101px;
 
-  .cont {
+  span {
     font-weight: 500;
     font-size: 16px;
     color: #544837;
@@ -193,10 +193,8 @@ button {
     margin-bottom: 22px;
     margin-top: 3px;
   }
-  p {
-    color: #544837;
-    font-weight: 500;
-    font-size: 16px;
+
+  h2 + p {
     margin-bottom: 30px;
   }
 
@@ -204,8 +202,16 @@ button {
     color: #2f281e;
     font-weight: 700;
     font-size: 16px;
+    line-height: 26px;
     margin-bottom: 12px;
     margin-top: 25px;
+  }
+
+  p {
+    color: #544837;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 
@@ -214,6 +220,42 @@ button {
   gap: 100px;
   margin-bottom: 104px;
   align-items: center;
+
+  span {
+    color: #544837;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  h2 {
+    color: #2f281e;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 22px;
+  }
+
+  p {
+    color: #544837;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+
+    &::before {
+      content: url(images/check.svg);
+    }
+  }
 }
 
 .marketers {
